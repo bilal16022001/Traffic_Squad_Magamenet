@@ -1,0 +1,215 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-----start login------*/
+
+.adminForm {
+    text-align: center;
+    background-color: #e5e5e5;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminForm input {
+    width: 350px;
+}
+
+/*-----end login------*/
+
+
+.parent {
+    background-color: #fff;
+    width: 92%;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+}
+
+.parent a:last-of-type,
+.parent a:first-of-type {
+    background-color: red;
+    color: #fff;
+    margin-left: 6px;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.parent a:first-of-type {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/*-----start Sidebar------*/
+.home {
+    display: flex;
+    background-color: #e5e5e582;
+}
+
+.s {
+    background-color: #414141;
+}
+
+.home .sidebar {
+    height: 100vh;
+    padding: 10px 0;
+    color: #fff;
+    width: 255px;
+}
+
+.home .sidebar .ad {
+    color: #fff;
+}
+
+.home .sidebar ul li svg {
+    font-size: 18px;
+    width: 40px;
+}
+
+.home .sidebar ul li a {
+    margin-left: 13px;
+}
+
+.home .sidebar ul,
+.home .s,
+.home .h {
+    padding: 0;
+
+}
+
+.home .h {
+    width: 100%;
+}
+
+.home .sidebar .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.home .sidebar .profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+}
+
+.home .profile .dropMenu {
+    position: absolute;
+    left: 50% !important;
+    top: 100% !important;
+    transform: translateX(-50%) !important;
+}
+
+.home .sidebar h3,
+.home .sidebar .MenuSidebar li {
+    margin-bottom: 15px;
+    padding: 4px 30px;
+}
+
+.home .sidebar .MenuSidebar li a {
+    color: #fff;
+}
+
+.MenuSidebar .dropMenu {
+    position: relative !important;
+    transform: translate(0) !important;
+}
+
+.dropMenu li a {
+    color: black !important;
+    margin: 0 !important;
+}
+
+.dropMenu li {
+    padding: 0 !important;
+}
+
+.home .showDrop {
+    height: 0;
+    overflow: hidden;
+}
+
+.home .header {
+    background-color: #fff;
+    padding: 4px 45px;
+    margin-bottom: 15px;
+
+}
+
+.home .header .row {
+    place-items: center;
+}
+
+
+
+.home .header .bars {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*-----end Sidebar ------*/
+
+/*------start dashboard------*/
+.dashboard {
+    width: 92%;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+}
+
+.admin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.admin div {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.admin .con {
+    font-size: 40px;
+}
+
+.admin>div {
+    display: flex;
+    position: relative;
+}
+
+.admin>div div {
+    margin-right: 10px;
+}
+
+.view a {
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+}
+
+/*-----end dashboard---*/
+
+/*-----start profile----*/
+.profile span {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 12px;
+
+}
+
+.profile li input {
+    width: 80%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+/*-----end profile----*/
